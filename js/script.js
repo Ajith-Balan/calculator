@@ -6,7 +6,7 @@ function add() {
     let fno=parseInt(document.getElementById("fno").value);
     let sno=parseInt(document.getElementById("sno").value);
 if (fno&&sno) {
-   document.getElementById("ans").innerHTML=` ${fno+sno}`
+   document.getElementById("ans").innerHTML=`sum is ${fno+sno}`
     
 }
 else{
@@ -21,7 +21,7 @@ function sub() {
     let fno=parseInt(document.getElementById("fno").value);
     let sno=parseInt(document.getElementById("sno").value);
 if (fno&&sno) {
-    document.getElementById("ans").innerHTML=` ${fno-sno}`
+    document.getElementById("ans").innerHTML=`sub is ${fno-sno}`
     
 }
 else{
@@ -38,7 +38,7 @@ function mul() {
     let fno=parseInt(document.getElementById("fno").value);
     let sno=parseInt(document.getElementById("sno").value);
 if (fno&&sno) {
-    document.getElementById("ans").innerHTML=` ${fno*sno}`
+    document.getElementById("ans").innerHTML=`mul is ${fno*sno}`
     
 }
 else{
@@ -54,7 +54,7 @@ function div() {
     let fno=parseInt(document.getElementById("fno").value);
     let sno=parseInt(document.getElementById("sno").value);
 if (fno&&sno) {
-    document.getElementById("ans").innerHTML=` ${fno/sno}`
+    document.getElementById("ans").innerHTML=`div is ${fno/sno}`
     
 }
 else{
